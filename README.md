@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1126896397.svg)](https://doi.org/10.5281/zenodo.18134825)
+
 # Addendum: Media archaeology workshop
 ## Anexo: Taller de arqueología de medios
 
