@@ -113,3 +113,36 @@ Before attempting digital recovery, the physical carrier must be graded to preve
 
 ---
 
+## 5. Bibliography and Academic Resources
+
+For further research into the forensic recovery and preservation of the Sinclair Spectrum, consult the following foundational texts and technical specifications.
+
+### Technical & Logic Standards
+* **Smith, C. (2010).** *The ZX Spectrum ULA: How to Design a Microcomputer.* Chris Smith/Zebedee Publications.
+    > The definitive reverse-engineering of the Spectrum's custom logic. Essential for understanding signal contention and ULA-specific audio processing.
+* **Zilog, Inc. (1984).** *Z80 CPU Technical Manual.*
+    > Official hardware specifications for the Z80 microprocessor, providing the ground truth for $T-state$ cycle timings.
+* **Sinclair Research Ltd. (1982).** *ZX Spectrum Service Manual.*
+    > Contains original circuit diagrams for the EAR/MIC sockets, vital for understanding the analogue filtering applied to tape signals before digitisation.
+
+### Magnetic Media & Forensics
+* **Van Bogart, J. W. C. (1995).** *Magnetic Tape Storage and Handling: A Guide for Libraries and Archives.* National Media Laboratory.
+    > The primary academic resource on binder hydrolysis (sticky-shed syndrome) and the chemical mechanics of tape failure.
+* **National Institute of Standards and Technology (NIST). (2022).** *Digital Investigation Techniques: A NIST Scientific Foundation Review.*
+    > Outlines the scientific basis for digital signal recovery and forensic integrity.
+
+### Preservation Philosophy & Media Archaeology
+* **Rothenberg, J. (1999).** *Avoiding Implicit Amnesia: Ensuring the Long-term Accessibility of Digital Information.* Council on Library and Information Resources.
+    > The seminal argument for emulation as a means of preserving the "behavioural" record of digital objects.
+* **Parikka, J. (2012).** *What is Media Archaeology?* Polity Press.
+    > A theoretical framework for treating obsolete hardware and physical media decay as primary historical evidence.
+* **Montfort, N., & Bogost, I. (2009).** *Racing the Beam.* MIT Press.
+    > Establishes the "Platform Studies" approach, arguing that hardware constraints (like the Spectrum’s attribute clash) are vital to the historical record.
+
+### Metadata & Archival Frameworks
+* **Consultative Committee for Space Data Systems (CCSDS). (2012).** *Reference Model for an Open Archival Information System (OAIS).* ISO 14721:2012.
+    > The international standard for packaging digital objects with necessary representation information.
+* **Swalwell, M. (2008).** "The Remembering and Forgetting of Early Digital Games." *Journal of Visual Culture.*
+    > Addresses the specific challenges of preserving 1980s home computer culture and ephemeral magnetic media.
+
+
