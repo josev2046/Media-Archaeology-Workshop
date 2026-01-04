@@ -13,7 +13,7 @@ Este taller se integra en la asignatura **"Casos de estudio para la investigaci√
 **Title: Practical case study on software preservation and hardware obsolescence**
 
 #### Context and rationale
-Within the framework of "obsolescence and media fragmentation," this practical workshop moves from theory to physical interaction with legacy hardware. The Sinclair ZX Spectrum (1982) serves as a primary case study for understanding the fragility of magnetic storage and the complexities of preserving software as cultural heritage. Students will engage with the challenges of recovering data from a format that is physically degrading and technically orphaned.
+Within the framework of "obsolescence and media fragmentation," this practical workshop moves from theory to physical interaction with legacy hardware. The [Sinclair ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) (1982) serves as a primary case study for understanding the fragility of magnetic storage and the complexities of preserving software as cultural heritage. Students will engage with the challenges of recovering data from a format that is physically degrading and technically orphaned.
 
 #### Specific content
 * **Magnetic media forensics:** analysing the physical degradation of cassette tapes. Techniques for audio sampling to facilitate data recovery by converting analogue signals into digital bitstreams.
