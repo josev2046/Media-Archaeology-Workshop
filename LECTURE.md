@@ -1,40 +1,41 @@
-Imagine you’ve discovered an old box of cassette tapes in an attic. These aren't just music tapes; they contain programs and games for a computer from 1982 called the **ZX Spectrum**. This workshop is about how we rescue that "digital history" before the tapes rot away forever.
+Imagina que hemos descubierto una caja de viejas cintas de casete en un desván. No son cintas de música; contienen programas y juegos de un ordenador de 1982 llamado **ZX Spectrum**. En este taller, rescataremos esta "historia digital" antes de que las cintas se degraden y desaparezcan para siempre.
 
-
----
-
-## 1. Digital Archaeology: Saving the "Pulse"
-Old cassette tapes are fragile. They are made of plastic coated in rust (iron oxide) that can flake off or stick together.
-
-* **The Challenge:** The computer doesn't "hear" music; it listens for timed pulses of sound. A "short" beep is a **0** and a "long" beep is a **1**.
-* **The Rescue:** Just like a doctor uses a stethoscope, students use special software to look at the sound waves. They "clean" the audio—straightening out the signals and fixing the volume—so the digital "0s and 1s" can be read clearly again.
+Esto es lo que aprenderemos durante el proyecto:
 
 ---
 
-## 2. Real Hardware vs. Modern Shortcuts
-Once we’ve saved the data, how should we play it? There is a big debate here:
+## 1. Arqueología digital: Tomar el "pulso"
+Las cintas magnéticas son frágiles. Están hechas de plástico recubierto de óxido de hierro (óxido) que puede desprenderse o pegarse con el tiempo.
 
-* **The Modern Way:** We can put the games on an SD card (like the one in your phone) and plug it into the old computer. It’s fast and reliable.
-* **The "Authentic" Way:** Is it still the same history if you don't feel the "dead flesh" rubber keys of the original keyboard? Is the 5-minute wait for a game to load part of the "experience"? The workshop teaches that **how** we used technology is just as important as the technology itself.
-
----
-
-## 3. Dealing with "Orphaned" Files
-Imagine finding a photo with no date, no name, and no location. In the digital world, we call this an **Orphaned Object**.
-
-* Students learn how to label these rescued files so that a historian 100 years from now knows exactly what they are looking at.
-* They create an "ID card" (**Metadata**) for every file, noting which specific computer it needs and even what brand of tape it originally lived on.
+* **El desafío:** El ordenador no "oye" música; mide pulsos de sonido cronometrados. Un pitido "corto" representa un **0** y un pitido "largo" representa un **1**.
+* **El rescate:** Al igual que un médico usa un estetoscopio, nosotros usamos software para observar las ondas de sonido. "Limpiaremos" el audio —enderezando las señales y corrigiendo el volumen— para que los datos digitales puedan leerse claramente de nuevo.
 
 ---
 
-## 4. The "Doctor’s Checkup" (Grading the Tape)
-Before you even put a tape into a player, you have to make sure it won't explode or ruin the machine. Students use a "report card" to grade the tapes:
+## 2. Hardware real frente a atajos modernos
+Una vez que hayamos salvado los datos, debemos decidir cómo ejecutarlos. Exploraremos un gran debate en la preservación:
 
-* **Grade A:** Looks new. Ready to go!
-* **Grade C:** The tape is sticky or folded. It might need to be "baked" in a special oven to remove moisture before it can be played.
-* **Grade D:** There is white mold on the tape. **Danger!** Keep it away from other tapes and call a specialist.
+* **Métodos modernos:** Podemos poner los juegos en una tarjeta SD y conectarla al ordenador original. Es rápido y fiable.
+* **La vía "auténtica":** Analizaremos si la historia se conserva realmente si no sentimos las teclas de goma (el famoso tacto de "carne muerta") del teclado original. ¿Es la espera de cinco minutos para que cargue un juego una parte vital del registro histórico? Aprenderemos que **cómo** utilizábamos la tecnología es tan importante como la tecnología en sí.
 
 ---
 
-### The Big Picture
-The goal isn't just to play old video games. It’s to treat software like a **museum artifact**. Just as we preserve ancient pottery or old books, these students are learning the technical skills to make sure the first steps of the "digital age" aren't forgotten as the hardware dies out.
+## 3. Documentar objetos "huérfanos"
+Si encontramos un archivo digital sin fecha, nombre o contexto, lo llamamos **objeto huérfano**.
+
+* Aprenderemos a etiquetar estos archivos rescatados para que un historiador dentro de un siglo sepa exactamente qué está mirando.
+* Crearemos una "tarjeta de identidad" digital (**metadatos**) para cada archivo, registrando qué modelo específico de ordenador requiere e incluso la marca de la cinta original de la que procede.
+
+---
+
+## 4. Revisión de estado (Clasificación de la cinta)
+Antes de poner una cinta en un reproductor, debemos asegurarnos de que no se dañará a sí misma ni al equipo. Utilizaremos una guía para clasificar las cintas:
+
+* **Grado A:** Estado impecable. Lista para ser procesada directamente.
+* **Grado C:** Degradada. La cinta está pegajosa o doblada. Esto requiere "hornearla" en un entorno controlado para eliminar la humedad antes de que podamos reproducirla.
+* **Grado D:** Crítica. Podemos ver moho blanco en la cinta. Estas requieren aislamiento y reparación por especialistas para evitar que el moho se propague.
+
+---
+
+### La visión general
+Nuestro objetivo no es simplemente jugar a videojuegos antiguos. Estamos tratando el software como un **artefacto cultural**. Al igual que conservamos cerámica antigua o libros viejos, estamos adquiriendo las habilidades técnicas para garantizar que los primeros pasos de la "era digital" no se pierdan para la historia a medida que el hardware original falla.
