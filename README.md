@@ -49,20 +49,30 @@ En el marco del estudio de la "obsolescencia y fragmentación de medios", este t
 
 A technical framework for the **magnetic media forensics**, **migration**, and **archival documentation** of Sinclair Spectrum software. This repository provides the standards for converting physical analogue degradation into permanent digital records.
 
+### Note
+To understand this process, think of it as **digital archaeology**:
+
+* **Measuring the Heartbeat:** The computer uses its internal clock (Z80 CPU) like a stopwatch. It doesn't "hear" music; it measures the time between pulses of sound.
+* **The Bits:** A "0" is a short pulse, and a "1" is a long pulse. By measuring these gaps in tiny fractions of a second, we translate audio back into data.
+* **Cleaning the Lens:** Just as a blurry photo is hard to read, a "muffled" tape is hard to digitize. We use **Azimuth Correction** to physically align the tape head and **Normalization** to clean the electrical signal so the "stopwatch" starts and stops at the exact right moment.
+
+---
+
 ## 1. Magnetic Media Forensics
 The primary goal is the recovery of bitstreams from degraded ferric oxide tapes. 
 
 ### Pulse Detection Logic
 Data recovery is based on the timing of Z80 $T-states$ (clock cycles). The hardware interprets the signal based on the duration between zero-crossings. On a standard 3.5MHz machine, we look for:
 
+
+
 * **Pilot Pulse:** 2,168 $T-states$ (approx. 619 $\mu s$)
 * **'0' Bit (Short):** 855 $T-states$ per pulse (approx. 244 $\mu s$)
 * **'1' Bit (Long):** 1,710 $T-states$ per pulse (approx. 489 $\mu s$)
 
-
-
 ### Forensic Workflow
 1.  **Azimuth Correction:** Physical alignment of the playback head to maximise high-frequency response.
+
 2.  **Bilateral Sampling:** Capturing audio at 24-bit/96kHz to ensure the Nyquist frequency comfortably exceeds the signal harmonics.
 3.  **Normalisation:** Removing DC offset and correcting phase inversion to ensure clean zero-crossing detection.
 
@@ -81,6 +91,7 @@ We document the **Sensory Contextual Record**. A preservation entry is not compl
 * **Keyboard Type:** Rubber mat ("dead flesh") vs. Sinclair plastic keys.
 * **Loading Duration:** The temporal experience of the loading process as a component of the user's focus.
 * **Visual Artefacts:** NTSC/PAL composite "colour bleed" and the distinctive attribute clash.
+
 
 ---
 
@@ -115,34 +126,20 @@ Before attempting digital recovery, the physical carrier must be graded to preve
 
 ## 5. Bibliography and Academic Resources
 
-For further research into the forensic recovery and preservation of the Sinclair Spectrum, consult the following foundational texts and technical specifications.
-
 ### Technical & Logic Standards
 * **Smith, C. (2010).** *The ZX Spectrum ULA: How to Design a Microcomputer.* Chris Smith/Zebedee Publications.
-    > The definitive reverse-engineering of the Spectrum's custom logic. Essential for understanding signal contention and ULA-specific audio processing.
 * **Zilog, Inc. (1984).** *Z80 CPU Technical Manual.*
-    > Official hardware specifications for the Z80 microprocessor, providing the ground truth for $T-state$ cycle timings.
 * **Sinclair Research Ltd. (1982).** *ZX Spectrum Service Manual.*
-    > Contains original circuit diagrams for the EAR/MIC sockets, vital for understanding the analogue filtering applied to tape signals before digitisation.
 
 ### Magnetic Media & Forensics
 * **Van Bogart, J. W. C. (1995).** *Magnetic Tape Storage and Handling: A Guide for Libraries and Archives.* National Media Laboratory.
-    > The primary academic resource on binder hydrolysis (sticky-shed syndrome) and the chemical mechanics of tape failure.
 * **National Institute of Standards and Technology (NIST). (2022).** *Digital Investigation Techniques: A NIST Scientific Foundation Review.*
-    > Outlines the scientific basis for digital signal recovery and forensic integrity.
 
 ### Preservation Philosophy & Media Archaeology
 * **Rothenberg, J. (1999).** *Avoiding Implicit Amnesia: Ensuring the Long-term Accessibility of Digital Information.* Council on Library and Information Resources.
-    > The seminal argument for emulation as a means of preserving the "behavioural" record of digital objects.
 * **Parikka, J. (2012).** *What is Media Archaeology?* Polity Press.
-    > A theoretical framework for treating obsolete hardware and physical media decay as primary historical evidence.
 * **Montfort, N., & Bogost, I. (2009).** *Racing the Beam.* MIT Press.
-    > Establishes the "Platform Studies" approach, arguing that hardware constraints (like the Spectrum’s attribute clash) are vital to the historical record.
 
 ### Metadata & Archival Frameworks
 * **Consultative Committee for Space Data Systems (CCSDS). (2012).** *Reference Model for an Open Archival Information System (OAIS).* ISO 14721:2012.
-    > The international standard for packaging digital objects with necessary representation information.
 * **Swalwell, M. (2008).** "The Remembering and Forgetting of Early Digital Games." *Journal of Visual Culture.*
-    > Addresses the specific challenges of preserving 1980s home computer culture and ephemeral magnetic media.
-
-
