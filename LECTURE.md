@@ -40,6 +40,8 @@ Our goal isn't simply to play old video games. We are treating software as a **c
 
 ---
 
+## Versión española: Del bit a la memoria
+
 Imagina que hemos descubierto una caja de viejas cintas de casete en un desván. No son cintas de música; contienen programas y juegos de un ordenador de 1982 llamado **ZX Spectrum**. En este taller, rescataremos esta "historia digital" antes de que las cintas se degraden y desaparezcan para siempre.
 
 Esto es lo que aprenderemos durante el proyecto:
