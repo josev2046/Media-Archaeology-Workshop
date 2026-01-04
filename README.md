@@ -45,7 +45,7 @@ En el marco del estudio de la "obsolescencia y fragmentación de medios", este t
 
 ---
 
-# Project Z80-Forensics: ZX Spectrum Digital Preservation
+## Project Z80-Forensics: ZX Spectrum Digital Preservation
 
 A technical framework for the **magnetic media forensics**, **migration**, and **archival documentation** of Sinclair Spectrum software. This repository provides the standards for converting physical analogue degradation into permanent digital records.
 
