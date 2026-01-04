@@ -54,7 +54,7 @@ To understand this process, think of it as **digital archaeology**:
 
 * **Measuring the Heartbeat:** The computer uses its internal clock (Z80 CPU) like a stopwatch. It doesn't "hear" music; it measures the time between pulses of sound.
 * **The Bits:** A "0" is a short pulse, and a "1" is a long pulse. By measuring these gaps in tiny fractions of a second, we translate audio back into data.
-* **"Cleaning the Lens":** Just as a blurry photo is hard to read, a "muffled" tape is hard to digitize. We use **Azimuth Correction** to physically align the tape head and **Normalization** to clean the electrical signal so the "stopwatch" starts and stops at the exact right moment.
+* **"Cleaning the Lens":** Just as a blurry photo is hard to read, a "muffled" tape is hard to digitize. We use **Azimuth Correction** to physically align the tape head and **Normalisation** to clean the electrical signal so the "stopwatch" starts and stops at the exact right moment.
 
 ---
 
