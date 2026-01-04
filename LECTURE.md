@@ -1,3 +1,49 @@
+
+Imagine we have discovered a box of old cassette tapes in a loft. These aren't music tapes; they contain programmes and games from a 1982 computer called the **ZX Spectrum**. In this workshop, we will rescue this "digital history" before the tapes degrade and disappear forever.
+
+This is what we will learn during the project:
+
+---
+
+## 1. Digital Archaeology: Taking the "Pulse"
+Magnetic tapes are fragile. They are made of plastic coated in iron oxide (rust) which can flake off or become sticky over time.
+
+* **The challenge:** The computer doesn't "hear" music; it measures timed pulses of sound. A "short" beep represents a **0** and a "long" beep represents a **1**.
+* **The rescue:** Just as a doctor uses a stethoscope, we use software to observe the sound waves. We will "clean" the audio—straightening the signals and correcting the volume—so the digital data can be read clearly once more.
+
+---
+
+## 2. Real Hardware vs Modern Shortcuts
+Once we have saved the data, we must decide how to run it. We will explore a major debate in preservation:
+
+* **Modern methods:** We can put the games onto an SD card and plug it into the original computer. It is fast and reliable.
+* **The "authentic" way:** We will consider whether history is truly preserved if we don't feel the rubber keys (the famous "dead flesh" feel) of the original keyboard. Is the five-minute wait for a game to load a vital part of the historical record? We will learn that **how** we used the technology is just as important as the technology itself.
+
+---
+
+## 3. Documenting "Orphan" Objects
+If we find a digital file without a date, name, or context, we call it an **orphan object**.
+
+* We will learn how to label these rescued files so that a historian a century from now knows exactly what they are looking at.
+* We will create a digital "identity card" (**metadata**) for each file, recording which specific computer model it requires and even the brand of the original tape it came from.
+
+---
+
+## 4. Condition Review (Tape Triage)
+Before putting a tape into a player, we must ensure it won't damage itself or the equipment. We will use a guide to classify the tapes:
+
+* **Grade A:** Pristine condition. Ready to be processed immediately.
+* **Grade C:** Degraded. The tape is sticky or buckled. This requires "baking" it in a controlled environment to remove moisture before we can play it.
+* **Grade D:** Critical. We can see white mould on the tape. These require isolation and specialist repair to prevent the mould from spreading.
+
+---
+
+### The big picture
+Our goal isn't simply to play old video games. We are treating software as a **cultural artefact**. Just as we preserve ancient pottery or old books, we are gaining the technical skills to ensure the first steps of the "digital age" aren't lost to history as the original hardware fails.
+
+
+---
+
 Imagina que hemos descubierto una caja de viejas cintas de casete en un desván. No son cintas de música; contienen programas y juegos de un ordenador de 1982 llamado **ZX Spectrum**. En este taller, rescataremos esta "historia digital" antes de que las cintas se degraden y desaparezcan para siempre.
 
 Esto es lo que aprenderemos durante el proyecto:
