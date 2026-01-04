@@ -1,6 +1,6 @@
 ## English version: From bit to memory
 
-Imagine we have discovered a box of old cassette tapes in a loft. These aren't music tapes; they contain programmes and games from a 1982 computer called the **ZX Spectrum**. In this workshop, we will rescue this "digital history" before the tapes degrade and disappear forever.
+Imagine we have discovered a box of old cassette tapes in a loft. These aren't music tapes; they contain programmes and games from a 1982 computer called the **[ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum)**. In this workshop, we will rescue this "digital history" before the tapes degrade and disappear forever.
 
 This is what we will learn during the project:
 
