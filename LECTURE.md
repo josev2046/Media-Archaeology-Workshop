@@ -5,28 +5,28 @@ Imagine we have discovered a box of old cassette tapes in a loft. These aren't m
 This is what we will learn during the project:
 
 
-## 1. Digital Archaeology: Taking the "Pulse"
+## 1. Digital archaeology: taking the "pulse"
 Magnetic tapes are fragile. They are made of plastic coated in iron oxide (rust) which can flake off or become sticky over time.
 
 * **The challenge:** The computer doesn't "hear" music; it measures timed pulses of sound. A "short" beep represents a **0** and a "long" beep represents a **1**.
 * **The rescue:** Just as a doctor uses a stethoscope, we use software to observe the sound waves. We will "clean" the audio—straightening the signals and correcting the volume—so the digital data can be read clearly once more.
 
 
-## 2. Real Hardware vs Modern Shortcuts
+## 2. Real hardware vs modern shortcuts
 Once we have saved the data, we must decide how to run it. We will explore a major debate in preservation:
 
 * **Modern methods:** We can put the games onto an SD card and plug it into the original computer. It is fast and reliable.
 * **The "authentic" way:** We will consider whether history is truly preserved if we don't feel the rubber keys (the famous "dead flesh" feel) of the original keyboard. Is the five-minute wait for a game to load a vital part of the historical record? We will learn that **how** we used the technology is just as important as the technology itself.
 
 
-## 3. Documenting "Orphan" Objects
+## 3. Documenting "orphan" objects
 If we find a digital file without a date, name, or context, we call it an **orphan object**.
 
 * We will learn how to label these rescued files so that a historian a century from now knows exactly what they are looking at.
 * We will create a digital "identity card" (**metadata**) for each file, recording which specific computer model it requires and even the brand of the original tape it came from.
 
 
-## 4. Condition Review (Tape Triage)
+## 4. Condition review (Tape triage)
 Before putting a tape into a player, we must ensure it won't damage itself or the equipment. We will use a guide to classify the tapes:
 
 * **Grade A:** Pristine condition. Ready to be processed immediately.
