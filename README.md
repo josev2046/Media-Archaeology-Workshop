@@ -42,3 +42,74 @@ En el marco del estudio de la "obsolescencia y fragmentación de medios", este t
 * Identificar los riesgos inherentes de pérdida de datos en los formatos de almacenamiento magnético doméstico.
 * Ejecutar un flujo de trabajo de preservación básico: desde el mantenimiento del hardware físico hasta la creación de imágenes de cinta digitales (.tzx/.tap).
 * Contextualizar el software de los años 80 como una forma de memoria social que requiere estrategias de archivo específicas más allá de la simple digitalización.
+
+---
+
+# Project Z80-Forensics: ZX Spectrum Digital Preservation
+
+A technical framework for the **magnetic media forensics**, **migration**, and **archival documentation** of Sinclair Spectrum software. This repository provides the standards for converting physical analogue degradation into permanent digital records.
+
+## 1. Magnetic Media Forensics
+The primary goal is the recovery of bitstreams from degraded ferric oxide tapes. 
+
+### Pulse Detection Logic
+Data recovery is based on the timing of Z80 $T-states$ (clock cycles). The hardware interprets the signal based on the duration between zero-crossings. On a standard 3.5MHz machine, we look for:
+
+* **Pilot Pulse:** 2,168 $T-states$ (approx. 619 $\mu s$)
+* **'0' Bit (Short):** 855 $T-states$ per pulse (approx. 244 $\mu s$)
+* **'1' Bit (Long):** 1,710 $T-states$ per pulse (approx. 489 $\mu s$)
+
+
+
+### Forensic Workflow
+1.  **Azimuth Correction:** Physical alignment of the playback head to maximise high-frequency response.
+2.  **Bilateral Sampling:** Capturing audio at 24-bit/96kHz to ensure the Nyquist frequency comfortably exceeds the signal harmonics.
+3.  **Normalisation:** Removing DC offset and correcting phase inversion to ensure clean zero-crossing detection.
+
+---
+
+## 2. Migration vs. Emulation
+This project distinguishes between the "logic" of the software and the "experience" of the hardware.
+
+### Hardware Migration
+We support the use of modern interfaces on original 48K/128K hardware to bypass the inherent instability of magnetic media:
+* **DivMMC / SD Storage:** Bypassing tape instability while retaining original Z80 CPU cycles and ULA timing.
+* **Flash ROM Cartridges:** Providing instantaneous software access through the rear expansion port.
+
+### The Authenticity Debate
+We document the **Sensory Contextual Record**. A preservation entry is not complete without noting the tactile and environmental factors that define the historical record:
+* **Keyboard Type:** Rubber mat ("dead flesh") vs. Sinclair plastic keys.
+* **Loading Duration:** The temporal experience of the loading process as a component of the user's focus.
+* **Visual Artefacts:** NTSC/PAL composite "colour bleed" and the distinctive attribute clash.
+
+---
+
+## 3. Documenting Orphaned Objects
+To address software lacking machine-readable metadata, we adhere to a **Minimum Archival Standard** for obsolete technological artefacts.
+
+### Metadata Schema
+Every recovered `.TZX` or `.TAP` file must be accompanied by a `metadata.json` containing:
+
+| Key | Description | Requirement |
+| :--- | :--- | :--- |
+| `uuid` | Unique SHA-1 hash of the bitstream | Mandatory |
+| `machine_type` | Target hardware (16K, 48K, 128K, +2, +3) | Mandatory |
+| `media_origin` | Physical tape brand and batch (e.g., C60 Ferric) | Recommended |
+| `protection_id` | Identification of custom loaders (e.g., Speedlock) | Optional |
+
+---
+
+## 4. Condition Assessment Rubric
+Before attempting digital recovery, the physical carrier must be graded to prevent hardware damage (e.g., oxide shedding fouling the playback head).
+
+
+
+| Grade | Classification | Characteristics | Action Required |
+| :--- | :--- | :--- | :--- |
+| **A** | Pristine | No visible wear; felt pad intact; tape moves freely. | Direct sampling. |
+| **B** | Worn | Minor shell scuffing; slight "railroading" on tape edges. | Clean heads after every pass. |
+| **C** | Degraded | Sticky-shed evidence; visible "cinching" (folds) in tape. | Requires dehydration/baking. |
+| **D** | Critical | Active mould (white spots); snapped leader; missing pad. | Specialist isolation/repair only. |
+
+---
+
